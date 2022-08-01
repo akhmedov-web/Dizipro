@@ -1,0 +1,771 @@
+.standard {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem 0px;
+}
+
+/* main start */
+
+.main {
+  height: 100vh;
+  box-sizing:border-box;
+}
+.main .mainF{
+  height: 100%;
+  width: 50%;
+}
+.main .mainF .mainLogo{
+  position: absolute;
+  left: 10%;
+  top: 4%;
+}
+.main .mainF .mainShape{
+  width: 85%;
+  height: 85%;
+}
+.mainS{
+  width: 50%;
+}
+.mainS .mainContent{
+  width: 75%;
+}
+.mainS .mainContent .mainTitle{
+font-size: 48px;
+}
+.mainS .mainContent .mainDesc{
+  font-size: 18px;
+  }
+/* main end */
+
+/* about start */
+
+.about {
+  min-height: 55vh;
+  font-family: sans-serif;
+  box-sizing:border-box;
+}
+
+.about .aboutF {
+  width: 37%;
+}
+
+.about .aboutF .aboutImg {
+  width: 100%;
+}
+
+.about .aboutS {
+  width: 63%;
+  box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.359);
+}
+
+.about .aboutS .aboutContent {
+  width: 70%;
+}
+
+.about .aboutS .aboutContent .aboutDesc {
+  font-size: 17px;
+}
+
+/* about end */
+
+/* statistic start */
+
+.statistic {
+  min-height: 70vh;
+}
+.statistic .statisticContent{
+  width: 100%;
+}
+.statistic .statisticContent .statisticFraction{
+width: 30%;
+}
+
+/* statistic end */
+
+/* works start */
+
+.works {
+  min-height: 120vh;
+  border: 2px solid yellowgreen;
+}
+.workCard{
+  width: 31%;
+  height: 65vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.162);
+  margin-bottom: 20px;
+}
+.workCard:nth-child(even){
+  height: 45vh;
+}
+.workCard:nth-child(5){
+  margin-top: -8rem;
+}
+.workCard:nth-child(even) .workImg{
+  height: 70%;
+}
+.workImg{
+  height: 80%;
+  width: 100%;
+  background-image: url("./images/work.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px; 
+}
+.userImg{
+  width: 60px;
+  height: 60px;
+  border-radius:30%;
+}
+
+/* works end */
+
+/* course start */
+
+.course {
+  min-height: 110vh;
+  border: 2px solid darkorange;
+}
+.courseArea .courseCard{
+  width: 30%;
+  min-height: 77vh;
+  border:1px solid rgba(120, 118, 118, 0.367);
+  border-radius:10px; 
+  box-shadow:0px 0px 4px rgba(120, 118, 118, 0.367);
+  padding: 10px;
+}
+.courseArea .courseCard .courseImg{
+width: 100%;
+}
+/* course end */
+
+/* support start */
+
+.support {
+  min-height: 80vh;
+  border: 2px solid dodgerblue;
+}
+
+/* support end*/
+
+/* blogs start*/
+
+.blogs {
+  min-height: 95vh;
+  /* border: 2px solid cadetblue; */
+}
+
+.blogs .blogsContent .blogCard{
+  width: 48%;
+  height: 12rem;
+  border-radius: 11px;
+  border:1px solid rgba(119, 118, 118, 0.279);
+  overflow: hidden;
+}
+.blogs .blogsContent .blogCard .blogImg{
+  width: 45%;
+  border-radius: 11px;
+}
+.blogs .blogsContent .blogCard .blogCardContent{
+  width: 55%;
+  border-radius: 11px;
+}
+
+/* blogs end*/
+
+/* footer start*/
+
+.footer {
+  height: 35vh;
+  border-top: 1px solid rgba(128, 128, 128, 0.467);
+  background-color: #FAFAFA;
+}
+.footer .footerF{
+  width: 50%;
+}
+.footer .footerF .footerLogo{
+width: 38%;
+}
+
+.footer .footerS{
+  width: 25%;
+}
+.footer .footerTh{
+  width: 25%;
+}
+/* footer end*/
+
+@media only screen and (max-width:1024px){
+/* main start */
+
+.main {
+  height: 100vh;
+  box-sizing:border-box;
+}
+.main .mainF{
+  height: 100%;
+  width: 50%;
+}
+.main .mainF .mainLogo{
+  position: absolute;
+  left: 10%;
+  top: 4%;
+}
+.main .mainF .mainShape{
+  width: 95%;
+  height: 85%;
+}
+.mainS{
+  width: 50%;
+}
+.mainS .mainContent{
+  width: 75%;
+}
+.mainS .mainContent .mainTitle{
+font-size: 48px;
+}
+.mainS .mainContent .mainDesc{
+  font-size: 18px;
+  }
+/* main end */
+
+/* about start */
+
+.about {
+  min-height: 55vh;
+  font-family: sans-serif;
+  box-sizing:border-box;
+}
+
+.about .aboutF {
+  width: 37%;
+}
+
+.about .aboutF .aboutImg {
+  width: 100%;
+  height: 100%;
+}
+
+.about .aboutS {
+  width: 63%;
+  box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.359);
+}
+
+.about .aboutS .aboutContent {
+  width: 70%;
+}
+
+.about .aboutS .aboutContent .aboutDesc {
+  font-size: 17px;
+}
+
+/* about end */
+
+/* statistic start */
+
+.statistic {
+  min-height: 70vh;
+}
+.statistic .statisticContent{
+  width: 100%;
+}
+.statistic .statisticContent .statisticFraction{
+width: 30%;
+}
+
+/* statistic end */
+
+/* works start */
+
+.works {
+  min-height: 120vh;
+  border: 2px solid yellowgreen;
+}
+.workCard{
+  width: 31%;
+  height: 85vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.162);
+  margin-bottom: 20px;
+}
+.workCard:nth-child(even){
+  height: 55vh;
+}
+.workCard:nth-child(5){
+  margin-top: -11rem;
+}
+.workCard:nth-child(even) .workImg{
+  height: 70%;
+}
+.workImg{
+  height: 80%;
+  width: 100%;
+  background-image: url("./images/work.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px; 
+}
+.userImg{
+  width: 60px;
+  height: 60px;
+  border-radius:30%;
+}
+
+/* works end */
+
+/* course start */
+
+.course {
+  min-height: 110vh;
+  border: 2px solid darkorange;
+}
+.courseArea .courseCard{
+  width: 32%;
+  min-height: 77vh;
+  border:1px solid rgba(120, 118, 118, 0.367);
+  border-radius:10px; 
+  box-shadow:0px 0px 4px rgba(120, 118, 118, 0.367);
+  padding: 10px;
+}
+.courseArea .courseCard .courseImg{
+width: 100%;
+}
+/* course end */
+
+/* support start */
+
+.support {
+  min-height: 80vh;
+  border: 2px solid dodgerblue;
+}
+
+/* support end*/
+
+/* blogs start*/
+
+.blogs {
+  min-height: 95vh;
+  /* border: 2px solid cadetblue; */
+}
+
+.blogs .blogsContent .blogCard{
+  width: 48%;
+  height: 12rem;
+  border-radius: 11px;
+  border:1px solid rgba(119, 118, 118, 0.279);
+  overflow: hidden;
+}
+.blogs .blogsContent .blogCard .blogImg{
+  width: 40%;
+  border-radius: 11px;
+}
+.blogs .blogsContent .blogCard .blogCardContent{
+  width: 60%;
+  border-radius: 11px;
+}
+
+/* blogs end*/
+
+/* footer start*/
+
+.footer {
+  height: 40vh;
+  border-top: 1px solid rgba(128, 128, 128, 0.467);
+  background-color: #FAFAFA;
+}
+.footer .footerF{
+  width: 30%;
+}
+.footer .footerF .footerLogo{
+width: 70%;
+}
+
+.footer .footerS{
+  width: 35%;
+}
+.footer .footerTh{
+  width: 20%;
+}
+}
+
+@media only screen and (max-width:992px) {
+
+  /* main start */
+  .main {
+    height: 65vh;
+  }
+  .mainS{
+    width: 100%;
+  }
+  .mainS .mainContent{
+    width: 65%;
+  }
+  .mainS .mainContent .mainTitle{
+  font-size: 40px;
+  }
+  .mainS .mainContent .mainDesc{
+    font-size: 18px;
+    }
+  /* main end */
+
+  /* about start */
+  .about .aboutF {
+    width: 100%;
+    display: flex;
+    align-items:center; 
+  }
+
+  .about .aboutS {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .about .aboutS .aboutContent {
+    width: 100%;
+  }
+
+  /* about end */
+
+  /* statistic start */
+
+  .statistic {
+      min-height: 50vh;
+  }
+
+  /* statistic end */
+
+  /* works start */
+
+  .workCard{
+    width: 47%;
+    height: 50vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.162);
+    margin-bottom: 20px;
+  }
+  .workCard:nth-child(even){
+    height: 50vh;
+  }
+  .workCard:nth-child(5){
+    margin-top: 0rem; 
+  }
+  .workCard:nth-child(even) .workImg{
+    height: 70%;
+  }
+  .workImg{
+    height: 70%;
+    width: 100%;
+    background-image: url("./images/work.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px; 
+  }
+  .userImg{
+    width: 60px;
+    height: 60px;
+    border-radius:30%;
+  }
+
+  /* works end */
+
+  /* course start */
+
+  .courseArea .courseCard{
+    width: 47%;
+    margin-bottom: 2rem;
+    }
+
+  /* course end */
+
+  /* support start */
+
+
+  /* support end*/
+
+  /* blogs start*/
+
+  .blogs .blogsContent .blogCard{
+    height: 10rem;
+    width: 75%;
+  }
+  .blogTitle{
+    font-size: 12px;
+  }
+  .blogDesc{
+    font-size: 11px;
+  }
+  .blogDate{
+    font-size: 10px;
+  }
+
+  /* blogs end*/
+
+  /* footer start*/
+  .footer {
+    height: 40vh;
+    border-top: 1px solid rgba(128, 128, 128, 0.467);
+    background-color: #FAFAFA;
+  }
+  .footer .footerF{
+    width: 30%;
+  }
+  .footer .footerF .footerLogo{
+  width: 70%;
+  }
+  
+  .footer .footerS{
+    width: 35%;
+  }
+  .footer .footerTh{
+    width: 25%;
+  }
+}
+@media only screen and (max-width:768px) {
+
+  /* main start */
+  .main {
+    height: 65vh;
+  }
+  .mainS{
+    width: 100%;
+  }
+  .mainS .mainContent{
+    width: 65%;
+  }
+  .mainS .mainContent .mainTitle{
+  font-size: 40px;
+  }
+  .mainS .mainContent .mainDesc{
+    font-size: 18px;
+    }
+  /* main end */
+
+  /* about start */
+  .about .aboutF {
+    width: 100%;
+    display: flex;
+    align-items:center; 
+  }
+
+  .about .aboutS {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .about .aboutS .aboutContent {
+    width: 100%;
+  }
+
+  /* about end */
+
+  /* statistic start */
+
+  .statistic {
+      min-height: 50vh;
+  }
+
+  /* statistic end */
+
+  /* works start */
+
+  .workCard{
+    width: 100%;
+    height: 80vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.162);
+    margin-bottom: 20px;
+  }
+  .workCard:nth-child(even){
+    height: 80vh;
+  }
+  .workCard:nth-child(5){
+    margin-top: 0rem; 
+  }
+  .workCard:nth-child(even) .workImg{
+    height: 80%;
+  }
+  .workImg{
+    height: 80%;
+    width: 100%;
+    background-image: url("./images/work.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px; 
+  }
+  .userImg{
+    width: 60px;
+    height: 60px;
+    border-radius:30%;
+  }
+
+  /* works end */
+
+  /* course start */
+
+  .courseArea .courseCard{
+    width: 100%;
+    margin-bottom: 1rem;
+    }
+
+  /* course end */
+
+  /* support start */
+
+
+  /* support end*/
+
+  /* blogs start*/
+
+  .blogs .blogsContent .blogCard{
+    height: 9rem;
+    width: 100%;
+  }
+  .blogTitle{
+    font-size: 12px;
+  }
+  .blogDesc{
+    font-size: 11px;
+  }
+  .blogDate{
+    font-size: 10px;
+  }
+
+  /* blogs end*/
+
+  /* footer start*/
+  .footer .footerF{
+    width: 100%;
+  }
+  .footer .footerF .footerLogo{
+  width: 45%;
+  }
+  .footer .footerS{
+    width: 100%;
+  }
+  .footer .footerTh{
+    width: 100%;
+  }
+  /* footer end*/
+}
+@media only screen and (max-width:576px) {
+
+  /* main start */
+  .main {
+    height: 55vh;
+  }
+  .mainS{
+    width: 100%;
+  }
+  .mainS .mainContent{
+    width: 100%;
+  }
+  .mainS .mainContent .mainTitle{
+  font-size: 30px;
+  }
+  .mainS .mainContent .mainDesc{
+    font-size: 18px;
+    }
+  /* main end */
+
+  /* about start */
+
+  .about .aboutF {
+    width: 100%;
+  }
+
+  .about .aboutS {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .about .aboutS .aboutContent {
+    width: 100%;
+  }
+
+  /* about end */
+
+  /* statistic start */
+
+  .statistic {
+    min-height: 40vh;
+  }
+
+  .statistic .statisticContent .statisticFraction{
+    width: 100%;
+    }
+
+  /* statistic end */
+
+  /* works start */
+
+  .workCard{
+    width: 100%;
+    height: 50vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.162);
+    margin-bottom: 20px;
+  }
+  .workCard:nth-child(even){
+    height: 50vh;
+  }
+  .workCard:nth-child(5){
+    margin-top: 0rem; 
+  }
+  .workCard:nth-child(even) .workImg{
+    height: 75%;
+  }
+  .workImg{
+    height: 75%;
+    width: 100%;
+    background-image: url("./images/work.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px; 
+  }
+  .userImg{
+    width: 60px;
+    height: 60px;
+    border-radius:30%;
+  }
+
+  /* works end */
+
+  /* course start */
+
+  .courseArea .courseCard{
+    width: 100%;
+    margin-bottom: 1rem;
+    }
+
+  /* course end */
+
+  /* support start */
+
+
+  /* support end*/
+
+  /* blogs start*/
+
+  .blogs .blogsContent .blogCard{
+    height: 9rem;
+    width: 100%;
+  }
+  .blogTitle{
+    font-size: 12px;
+  }
+  .blogDesc{
+    font-size: 11px;
+  }
+  .blogDate{
+    font-size: 10px;
+  }
+
+  /* blogs end*/
+
+  /* footer start*/
+  .footer .footerF{
+    width: 100%;
+  }
+  .footer .footerF .footerLogo{
+  width: 45%;
+  }
+  .footer .footerS{
+    width: 100%;
+  }
+  .footer .footerTh{
+    width: 100%;
+  }
+  /* footer end*/
+}
