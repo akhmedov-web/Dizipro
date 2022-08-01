@@ -86,7 +86,6 @@ width: 30%;
 
 .works {
   min-height: 120vh;
-  border: 2px solid yellowgreen;
 }
 .workCard{
   width: 31%;
@@ -123,7 +122,6 @@ width: 30%;
 
 .course {
   min-height: 110vh;
-  border: 2px solid darkorange;
 }
 .courseArea .courseCard{
   width: 30%;
@@ -142,7 +140,6 @@ width: 100%;
 
 .support {
   min-height: 80vh;
-  border: 2px solid dodgerblue;
 }
 
 /* support end*/
@@ -151,7 +148,6 @@ width: 100%;
 
 .blogs {
   min-height: 95vh;
-  /* border: 2px solid cadetblue; */
 }
 
 .blogs .blogsContent .blogCard{
@@ -278,7 +274,6 @@ width: 30%;
 
 .works {
   min-height: 120vh;
-  border: 2px solid yellowgreen;
 }
 .workCard{
   width: 31%;
@@ -315,7 +310,6 @@ width: 30%;
 
 .course {
   min-height: 110vh;
-  border: 2px solid darkorange;
 }
 .courseArea .courseCard{
   width: 32%;
@@ -334,7 +328,6 @@ width: 100%;
 
 .support {
   min-height: 80vh;
-  border: 2px solid dodgerblue;
 }
 
 /* support end*/
@@ -343,7 +336,6 @@ width: 100%;
 
 .blogs {
   min-height: 95vh;
-  /* border: 2px solid cadetblue; */
 }
 
 .blogs .blogsContent .blogCard{
